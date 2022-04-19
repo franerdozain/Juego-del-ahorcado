@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>El ahorcado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="titulo">El ahorcado</h1>
+        <div class="botones">
+            <button id="nuevoJuego">Nuevo juego</button>
+            <button id="nuevaPalabra">Ingresar nueva palabra</button>
+            <div>
+                <textarea cols="49" rows="2" id="inputPalabra" placeholder='Ingrese solo mayúsculas, sin caracteres especiales ni tildes, luego presione enter o haga click en "Agregar"'></textarea>
+            <p id="palabraIngresada">Palabra ingresada</p>
+            </div>
+            <button id="cerrarTextarea">X</button>
+            <button id="btnAgregarPalabra">Agregar</button>
+            <button id="continuarJuegoPausado">Continuar juego pausado</button>
+        </div>
+        <canvas></canvas>
+        <div id="virtual-keyboard">
+            <div class="keyboard-row">
+                <button id="q" class="key" data="Q">Q</button>
+                <button id="w" class="key" data="W">W</button>
+                <button id="e" class="key" data="E">E</button>
+                <button id="r" class="key" data="R">R</button>
+                <button id="t" class="key" data="T">T</button>
+                <button id="y" class="key" data="Y">Y</button>
+                <button id="u" class="key" data="U">U</button>
+                <button id="i" class="key" data="I">I</button>
+                <button id="o" class="key" data="O">O</button>
+                <button id="p" class="key" data="P">P</button>
+            </div>
+            <div class="keyboard-row">
+                <button id="a" class="key" data="A">A</button>
+                <button id="s" class="key" data="S">S</button>
+                <button id="d" class="key" data="D">D</button>
+                <button id="f" class="key" data="F">F</button>
+                <button id="g" class="key" data="G">G</button>
+                <button id="h" class="key" data="H">H</button>
+                <button id="j" class="key" data="J">J</button>
+                <button id="k" class="key" data="K">K</button>
+                <button id="l" class="key" data="L">L</button>
+                <button id="ñ" class="key" data="Ñ">Ñ</button>
+            </div>
+            <div class="keyboard-row">
+                <button id="z" class="key" data="Z">Z</button>
+                <button id="x" class="key" data="X">X</button>
+                <button id="c" class="key" data="C">C</button>
+                <button id="v" class="key" data="V">V</button>
+                <button id="b" class="key" data="B">B</button>
+                <button id="n" class="key" data="N">N</button>
+                <button id="m" class="key" data="M">M</button>
+            </div>
+            <div class="keyboard-row">
+                <button id="del" class="key" data="DEL">Borrar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span id="marca">&#169; Fran Erdozain</span>
+    </footer>
+    <script src="juegoAhorcado.js"></script>
+</body>
+
+</html>

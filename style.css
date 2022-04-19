@@ -1,0 +1,141 @@
+*{
+    font-family: Kalam; 
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+}
+
+.main{
+    background-image: url(utah-161531.png);
+    height: 100vh;
+    background-repeat: round;
+    text-align: center;
+}
+
+
+.titulo{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#tituloPantallaVertical{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 15px;
+    visibility: hidden;
+    color: black;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 1em 0;
+}
+
+#nuevoJuego, #btnAgregarPalabra{
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 1em 0.3em;
+    cursor: pointer;
+}
+
+#nuevaPalabra{
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 1em 0.6em 1em 0;
+    cursor: pointer;
+}
+
+#inputPalabra{
+    visibility: hidden;
+    border-radius: 10px;
+    resize: none;
+    font-size: 20px;
+    outline: 0;
+}
+
+#cerrarTextarea{
+    visibility: hidden;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 1em 0 1em 0.3em;
+    cursor: pointer;
+}
+
+#palabraIngresada{
+    visibility: hidden;
+    font-size: 17px;
+}
+
+::placeholder{
+    font-size: 18px;
+    
+}
+
+#btnAgregarPalabra{
+    visibility: hidden;
+}
+
+#continuarJuegoPausado{
+    visibility: hidden;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 1em 0.3em;
+    cursor: pointer;
+}
+
+#virtual-keyboard{
+    font-size: 45px;
+    position: fixed;
+    bottom: 1em;
+    margin-left: 15em;
+    display: grid;
+    justify-items: stretch;
+}
+
+.keyboard-row{
+    margin-bottom: 0.8em;
+}
+
+.key{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    border: 1.5px solid black;
+    margin: 5px;
+    padding: 3px;
+    background: linear-gradient(86deg, #ffffffd4, #6e6868); 
+     
+}
+
+.key:hover{
+    background: linear-gradient(10deg, #ffffffd4, #6e6868);
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+.key:active{
+    background: black;
+    color: whitesmoke;
+}
+
+#del{
+    visibility: hidden;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+#marca{
+    font-size: 23px;
+}

@@ -96,7 +96,7 @@ body{
     font-size: 45px;
     position: fixed;
     bottom: 1em;
-    margin-left: 15em;
+    margin-left: 60%;
     display: grid;
     justify-items: stretch;
 }

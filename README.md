@@ -4,7 +4,7 @@
 Objetivo:
 crear un juego del ahorcado en donde el jugador pueda agregar palabras, permitiendo únicamente mayúsculas, a la lista de palabras de la cual aleatoriamente se obtendrá una al iniciar un nuevo juego.
 
-Probá el juego [aquí]("https://franerdozain.github.io/juego-del-ahorcado/")
+Probá el juego [aquí](https://franerdozain.github.io/juego-del-ahorcado/)
 
 Funcionalidades agregadas:
 - Teclado virtual en pantalla
